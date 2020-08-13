@@ -1,0 +1,1 @@
+/home/ye/Work/BioAligment/totalATAC/clean/UBR-18-ATAC/J1904186_L2_Q803602.R1.fastq.gz	/home/ye/Work/BioAligment/totalATAC/clean/UBR-18-ATAC/J1904186_L2_Q803602.R2.fastq.gz

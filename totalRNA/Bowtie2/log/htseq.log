@@ -1,0 +1,34 @@
+nohup: ignoring input
+htseq-count.sh: line 7: [: -eq: unary operator expected
+Align : /home/ye/Data/20190294/result/clean/bowtie/jiemoshangpi/jiemoshangpi_S138138_L003/Aligned.sorted.out.bam
+100000 GFF lines processed.
+200000 GFF lines processed.
+300000 GFF lines processed.
+400000 GFF lines processed.
+500000 GFF lines processed.
+600000 GFF lines processed.
+700000 GFF lines processed.
+800000 GFF lines processed.
+900000 GFF lines processed.
+1000000 GFF lines processed.
+1100000 GFF lines processed.
+1200000 GFF lines processed.
+1300000 GFF lines processed.
+1400000 GFF lines processed.
+1500000 GFF lines processed.
+1600000 GFF lines processed.
+1700000 GFF lines processed.
+1800000 GFF lines processed.
+1900000 GFF lines processed.
+2000000 GFF lines processed.
+2100000 GFF lines processed.
+2200000 GFF lines processed.
+2300000 GFF lines processed.
+2400000 GFF lines processed.
+2500000 GFF lines processed.
+2600000 GFF lines processed.
+2700000 GFF lines processed.
+2800000 GFF lines processed.
+2876683 GFF lines processed.
+0 SAM alignments  processed.
+Successfully

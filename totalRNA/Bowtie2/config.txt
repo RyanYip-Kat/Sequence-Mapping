@@ -1,0 +1,1 @@
+/home/ye/Data/20190294/clean/jiemoshangpi/jiemoshangpi_S138138_L003_R1_001.fastq.gz	/home/ye/Data/20190294/clean/jiemoshangpi/jiemoshangpi_S138138_L003_R2_001.fastq.gz

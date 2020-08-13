@@ -1,0 +1,56 @@
+nohup: ignoring input
+featureCounts.sh: line 7: [: -eq: unary operator expected
+Align : /home/ye/Data/20190294/result/clean/bowtie/jiemoshangpi/jiemoshangpi_S138138_L003/Aligned.sorted.out.bam
+output : /home/ye/Data/20190294/result/clean/bowtie/jiemoshangpi/jiemoshangpi_S138138_L003/featureCounts.txt
+/home/ye/anaconda3/envs/BioAlignment/bin/featureCounts  -T 2 -g gene_id -t exon -o /home/ye/Data/20190294/result/clean/bowtie/jiemoshangpi/jiemoshangpi_S138138_L003/featureCounts.txt -a /home/ye/Data/totalRNA_ref/human/gtf/Homo_sapiens.GRCh38.97.chr.gtf /home/ye/Data/20190294/result/clean/bowtie/jiemoshangpi/jiemoshangpi_S138138_L003/Aligned.sorted.out.bam
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v1.6.4
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           P Aligned.sorted.out.bam                         ||
+||                                                                            ||
+||             Output file : featureCounts.txt                                ||
+||                 Summary : featureCounts.txt.summary                        ||
+||              Annotation : Homo_sapiens.GRCh38.97.chr.gtf (GTF)             ||
+||      Dir for temp files : /home/ye/Data/20190294/result/clean/bowtie/j ... ||
+||                                                                            ||
+||                 Threads : 2                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.97.chr.gtf ...                    ||
+||    Features : 1362975                                                      ||
+||    Meta-features : 60558                                                   ||
+||    Chromosomes/contigs : 25                                                ||
+||                                                                            ||
+|| Process BAM file Aligned.sorted.out.bam...                                 ||
+||    Paired-end reads are included.                                          ||
+||    Assign alignments to features...                                        ||
+||    Total alignments : 51041734                                             ||
+||    Successfully assigned alignments : 34049814 (66.7%)                     ||
+||    Running time : 0.86 minutes                                             ||
+||                                                                            ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/home/ye/Data/20190294/  ||
+|| result/clean/bowtie/jiemoshangpi/jiemoshangpi_S138138_L003/featureCounts.  ||
+|| txt.summary"                                                               ||
+||                                                                            ||
+\\============================================================================//
+
+cut -f 1,7,8,9,10,11,12 /home/ye/Data/20190294/result/clean/bowtie/jiemoshangpi/jiemoshangpi_S138138_L003/featureCounts.txt  > /home/ye/Data/20190294/result/clean/bowtie/jiemoshangpi/jiemoshangpi_S138138_L003/Counts.txt
+Successfully

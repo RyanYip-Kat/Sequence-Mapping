@@ -1,0 +1,173 @@
+@include "sc_vdj_assembler_cs.mro"
+ 
+call SC_VDJ_ASSEMBLER_CS(
+    sample_id = "20200706-BCR",
+    sample_def = [
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 1,
+            "lanes": null,
+            "read_path": "/home/ye/Data/20200706-BCR/HH1-10XBCR",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "HH1-10XBCR" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 2,
+            "lanes": null,
+            "read_path": "/home/ye/Data/20200706-BCR/HH2-10XBCR",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "HH2-10XBCR" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 3,
+            "lanes": null,
+            "read_path": "/home/ye/Data/20200706-BCR/HH3-10XBCR",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "HH3-10XBCR" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 4,
+            "lanes": null,
+            "read_path": "/home/ye/Data/20200706-BCR/HH4-10XBCR",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "HH4-10XBCR" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 5,
+            "lanes": null,
+            "read_path": "/home/ye/Data/20200706-BCR/HH5-10XBCR",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "HH5-10XBCR" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 6,
+            "lanes": null,
+            "read_path": "/home/ye/Data/20200706-BCR/U-N-2",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "U-N-2" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 7,
+            "lanes": null,
+            "read_path": "/home/ye/Data/20200706-BCR/U-N-3",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "U-N-3" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 8,
+            "lanes": null,
+            "read_path": "/home/ye/Data/20200706-BCR/U-N-4",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "U-N-4" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 9,
+            "lanes": null,
+            "read_path": "/home/ye/Data/20200706-BCR/U-N-5",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "U-N-5" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 10,
+            "lanes": null,
+            "read_path": "/home/ye/Data/20200706-BCR/U-N-6",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "U-N-6" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 11,
+            "lanes": null,
+            "read_path": "/home/ye/Data/20200706-BCR/UVR-7",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "UVR-7" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 12,
+            "lanes": null,
+            "read_path": "/home/ye/Data/20200706-BCR/UVR-8",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "UVR-8" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 13,
+            "lanes": null,
+            "read_path": "/home/ye/Data/20200706-BCR/UVR-9",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "UVR-9" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 14,
+            "lanes": null,
+            "read_path": "/home/ye/Data/20200706-BCR/UVR-10",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "UVR-10" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 15,
+            "lanes": null,
+            "read_path": "/home/ye/Data/20200706-BCR/UVR-12",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "UVR-12-RNA" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 16,
+            "lanes": null,
+            "read_path": "/home/ye/Data/20200706-BCR/UVR-13",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "UVR-13" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 17,
+            "lanes": null,
+            "read_path": "/home/ye/Data/20200706-BCR/UVR-14",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "UVR-14" ]
+        },        
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 18,
+            "lanes": null,
+            "read_path": "/home/ye/Data/20200706-BCR/UVR-15",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "UVR-15" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 19,
+            "lanes": null,
+            "read_path": "/home/ye/Data/20200706-BCR/UVR-16",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "UVR-16" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 20,
+            "lanes": null,
+            "read_path": "/home/ye/Data/20200706-BCR/UVR-17",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "UVR-17-10XBCR" ]
+        },
+     
+    ],
+    sample_desc = "",
+    vdj_reference_path = "/home/ye/Data/10X/VDJ/ref/refdata-cellranger-vdj-GRCh38-alts-ensembl-3.1.0",
+    denovo = false,
+    force_cells = null,
+    inner_enrichment_primers = null,
+)

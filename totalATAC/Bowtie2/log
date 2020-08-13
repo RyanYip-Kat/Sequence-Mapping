@@ -1,0 +1,10 @@
+nohup: ignoring input
+/home/ye/anaconda3/envs/BioAlignment/bin/samtools view -S -b /home/ye/Work/BioAligment/totalATAC/aligned/DME-4-ATAC/Align.out.sam > /home/ye/Work/BioAligment/totalATAC/aligned/DME-4-ATAC/Align.out.bam
+/home/ye/anaconda3/envs/BioAlignment/bin/samtools sort /home/ye/Work/BioAligment/totalATAC/aligned/DME-4-ATAC/Align.out.bam  -o /home/ye/Work/BioAligment/totalATAC/aligned/DME-4-ATAC/Align.sorted.out.bam
+[bam_sort_core] merging from 24 files and 1 in-memory blocks...
+/home/ye/anaconda3/envs/BioAlignment/bin/samtools view -S -b /home/ye/Work/BioAligment/totalATAC/aligned/PDR-4-ATAC/Align.out.sam > /home/ye/Work/BioAligment/totalATAC/aligned/PDR-4-ATAC/Align.out.bam
+/home/ye/anaconda3/envs/BioAlignment/bin/samtools sort /home/ye/Work/BioAligment/totalATAC/aligned/PDR-4-ATAC/Align.out.bam  -o /home/ye/Work/BioAligment/totalATAC/aligned/PDR-4-ATAC/Align.sorted.out.bam
+[bam_sort_core] merging from 36 files and 1 in-memory blocks...
+/home/ye/anaconda3/envs/BioAlignment/bin/samtools view -S -b /home/ye/Work/BioAligment/totalATAC/aligned/UBR-18-ATAC/Align.out.sam > /home/ye/Work/BioAligment/totalATAC/aligned/UBR-18-ATAC/Align.out.bam
+/home/ye/anaconda3/envs/BioAlignment/bin/samtools sort /home/ye/Work/BioAligment/totalATAC/aligned/UBR-18-ATAC/Align.out.bam  -o /home/ye/Work/BioAligment/totalATAC/aligned/UBR-18-ATAC/Align.sorted.out.bam
+[bam_sort_core] merging from 29 files and 1 in-memory blocks...

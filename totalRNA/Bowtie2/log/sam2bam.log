@@ -1,0 +1,4 @@
+nohup: ignoring input
+/home/ye/anaconda3/envs/BioAlignment/bin/samtools view -S -b /home/ye/Data/20190294/result/clean/bowtie/jiemoshangpi/jiemoshangpi_S138138_L003/Align.out.sam > /home/ye/Data/20190294/result/clean/bowtie/jiemoshangpi/jiemoshangpi_S138138_L003/Align.out.bam
+/home/ye/anaconda3/envs/BioAlignment/bin/samtools sort /home/ye/Data/20190294/result/clean/bowtie/jiemoshangpi/jiemoshangpi_S138138_L003/Align.out.bam  -o /home/ye/Data/20190294/result/clean/bowtie/jiemoshangpi/jiemoshangpi_S138138_L003/Align.sorted.out.bam
+[bam_sort_core] merging from 23 files and 1 in-memory blocks...

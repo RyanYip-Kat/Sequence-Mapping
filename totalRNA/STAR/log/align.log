@@ -1,0 +1,8 @@
+nohup: ignoring input
+/home/ye/Data/20190294/result/clean/jiemoshangpi/jiemoshangpi_S138138_L003
+Jan 09 09:29:12 ..... started STAR run
+Jan 09 09:29:12 ..... loading genome
+Jan 09 09:30:01 ..... processing annotations GTF
+Jan 09 09:30:25 ..... inserting junctions into the genome indices
+Jan 09 09:33:15 ..... started mapping
+align.sh: line 14: 21962 Terminated              $star --runMode alignReads --genomeDir $genomeDir --sjdbGTFfile $gtf --readFilesType Fastx --runThreadN 2 --outTmpKeep None --outSAMtype SAM --outFileNamePrefix $outfile/ --outFilterMismatchNmax 100 --seedSearchStartLmax 20 --seedPerReadNmax 100000 --seedPerWindowNmax 1000 --alignTranscriptsPerReadNmax 100000 --alignTranscriptsPerWindowNmax 10000 --readFilesCommand zcat --genomeLoad NoSharedMemory --readFilesIn $fq1 $fq2

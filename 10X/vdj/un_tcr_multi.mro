@@ -1,0 +1,52 @@
+@include "sc_vdj_assembler_cs.mro"
+ 
+call SC_VDJ_ASSEMBLER_CS(
+    sample_id = "ST-multi",
+    sample_def = [
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 1,
+            "lanes": null,
+            "read_path": "/home/ye/Data/U-N/TCR/U-N-2",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "U-N-2" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 2,
+            "lanes": null,
+            "read_path": "/home/ye/Data/U-N/TCR/U-N-3",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "U-N-3" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 3,
+            "lanes": null,
+            "read_path": "/home/ye/Data/U-N/TCR/U-N-4",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "U-N-4" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 4,
+            "lanes": null,
+            "read_path": "/home/ye/Data/U-N/TCR/U-N-5",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "U-N-5" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 5,
+            "lanes": null,
+            "read_path": "/home/ye/Data/U-N/TCR/U-N-6",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "U-N-6" ]
+        }
+    ],
+    sample_desc = "",
+    vdj_reference_path = "/home/ye/Data/10X/VDJ/ref/refdata-cellranger-vdj-GRCh38-alts-ensembl-3.1.0",
+    denovo = false,
+    force_cells = null,
+    inner_enrichment_primers = null,
+)

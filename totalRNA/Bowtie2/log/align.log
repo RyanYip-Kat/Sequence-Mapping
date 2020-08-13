@@ -1,0 +1,19 @@
+nohup: ignoring input
+/home/ye/Data/20190294/clean/jiemoshangpi
+/home/ye/Data/20190294/result/clean/bowtie/jiemoshangpi/jiemoshangpi_S138138_L003
+/home/ye/anaconda3/envs/BioAlignment/bin/bowtie2 -x /home/ye/Data/totalRNA_ref/human/index/Bowtie2/hg38/index  -1 /home/ye/Data/20190294/clean/jiemoshangpi/jiemoshangpi_S138138_L003_R1_001.fastq.gz -2 /home/ye/Data/20190294/clean/jiemoshangpi/jiemoshangpi_S138138_L003_R2_001.fastq.gz -S /home/ye/Data/20190294/result/clean/bowtie/jiemoshangpi/jiemoshangpi_S138138_L003/Align.out.sam
+25520867 reads; of these:
+  25520867 (100.00%) were paired; of these:
+    8475330 (33.21%) aligned concordantly 0 times
+    12112467 (47.46%) aligned concordantly exactly 1 time
+    4933070 (19.33%) aligned concordantly >1 times
+    ----
+    8475330 pairs aligned concordantly 0 times; of these:
+      1253061 (14.78%) aligned discordantly 1 time
+    ----
+    7222269 pairs aligned 0 times concordantly or discordantly; of these:
+      14444538 mates make up the pairs; of these:
+        9275646 (64.22%) aligned 0 times
+        4118297 (28.51%) aligned exactly 1 time
+        1050595 (7.27%) aligned >1 times
+81.83% overall alignment rate

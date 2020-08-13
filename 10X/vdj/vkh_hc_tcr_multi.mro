@@ -1,0 +1,77 @@
+@include "sc_vdj_assembler_cs.mro"
+ 
+call SC_VDJ_ASSEMBLER_CS(
+    sample_id = "VKH-HC-multi",
+    sample_def = [
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 1,
+            "lanes": null,
+            "read_path": "/home/ye/Data/Su/HC/TCR/CAT-07-10XTCR",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "CAT-07-10XTCR" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 2,
+            "lanes": null,
+            "read_path": "/home/ye/Data/Su/HC/TCR/CAT-08-10XTCR",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "CAT-08-10XTCR" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 3,
+            "lanes": null,
+            "read_path": "/home/ye/Data/Su/HC/TCR/DME-4",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "DME-4" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 4,
+            "lanes": null,
+            "read_path": "/home/ye/Data/Su/HC/TCR/PCV-1",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "PCV-1" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 5,
+            "lanes": null,
+            "read_path": "/home/ye/Data/Su/HC/TCR/PCV-5",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "PCV-5" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 6,
+            "lanes": null,
+            "read_path": "/home/ye/Data/Su/HC/TCR/PCV-6",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "PCV-6" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 7,
+            "lanes": null,
+            "read_path": "/home/ye/Data/Su/HC/TCR/PDR-4",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "PDR-4-RNA" ]
+        },
+        {
+            "fastq_mode": "ILMN_BCL2FASTQ",
+            "gem_group": 8,
+            "lanes": null,
+            "read_path": "/home/ye/Data/Su/HC/TCR/PDR-5",
+            "sample_indices": [ "any" ],
+            "sample_names": [ "PDR-5-RNA" ]
+        },
+
+    ],
+    sample_desc = "",
+    vdj_reference_path = "/home/ye/Data/10X/VDJ/ref/refdata-cellranger-vdj-GRCh38-alts-ensembl-3.1.0",
+    denovo = false,
+    force_cells = null,
+    inner_enrichment_primers = null,
+)
