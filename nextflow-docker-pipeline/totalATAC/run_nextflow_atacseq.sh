@@ -1,0 +1,13 @@
+nextflow run -bg nf-core/atacseq  -profile docker \
+	--email "ryanyip_@hotmail.com" \
+	--email_on_fail \
+	--max_cpus 16 \
+	--gtf "/home/ye/Data/totalRNA_ref/human/gtf/Homo_sapiens.GRCh38.97.chr.gtf" \
+	--fasta "/home/ye/Data/genome/GRCh38.primary_assembly.genome.fa" \
+	--save_trimmed \
+	--bwa_index "/home/ye/Data/genome/GRCh38.primary_assembly.genome.fa" \
+	--narrow_peak \
+	--genome "GRCh38" \
+	--input "/home/ye/Work/BioAligment/totalATAC/nfcore-atacseq/design.csv" \
+	--mito_name chrM \
+	-with-report report.html 

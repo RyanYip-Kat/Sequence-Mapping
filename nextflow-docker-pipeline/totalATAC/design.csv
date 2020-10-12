@@ -1,0 +1,6 @@
+group,replicate,fastq_1,fastq_2
+UVR-14,1,/home/ye/Data/dataset/totalATAC/LBFC20190448/J1904185_L3_Q803601.R1.fastq.gz,/home/ye/Data/dataset/totalATAC/LBFC20190448/J1904185_L3_Q803601.R2.fastq.gz
+UBR-18,1,/home/ye/Data/dataset/totalATAC/LBFC20190448/J1904186_L2_Q803602.R1.fastq.gz,/home/ye/Data/dataset/totalATAC/LBFC20190448/J1904186_L2_Q803602.R2.fastq.gz
+PDR-4,1,/home/ye/Data/dataset/totalATAC/LBFC20190448/J1904187_L2_Q803603.R1.fastq.gz,/home/ye/Data/dataset/totalATAC/LBFC20190448/J1904187_L2_Q803603.R2.fastq.gz
+DME-4,1,/home/ye/Data/dataset/totalATAC/LBFC20190448/J1904188_L3_Q804601.R1.fastq.gz,/home/ye/Data/dataset/totalATAC/LBFC20190448/J1904188_L3_Q804601.R2.fastq.gz
+UVR-11,1,/home/ye/Data/dataset/totalATAC/LBFC20190448/J1904189_L3_Q804602.R1.fastq.gz,/home/ye/Data/dataset/totalATAC/LBFC20190448/J1904189_L3_Q804602.R2.fastq.gz
