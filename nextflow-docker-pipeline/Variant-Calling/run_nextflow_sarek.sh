@@ -4,6 +4,7 @@ nextflow run -bg nf-core/sarek -profile docker \
 	--no_gatk_spark --save_bam_mapped --no_intervals \
 	--genome "custom" \
 	--save_reference \
+	--tools haplotypecaller,strelka,mutect2 \
 	--dbsnp_index "/home/ye/Data/genome/dbsnp_146.hg38.vcf.gz.tbi" \
 	--known_indels_index "/home/ye/Data/genome/Mills_and_1000G_gold_standard.indels.hg38.vcf.gz.tbi" \
 	--fasta "/home/ye/Data/genome/GRCh38.primary_assembly.genome.fa" \
