@@ -1,0 +1,16 @@
+nextflow run -bg nf-core/sarek -profile docker \
+	-resume \
+	--input /home/ye/Work/BioAligment/Variant-Calling/sample.tsv \
+	--no_gatk_spark --save_bam_mapped --no_intervals \
+	--genome "custom" \
+	--save_reference \
+	--dbsnp_index "/home/ye/Data/genome/dbsnp_146.hg38.vcf.gz.tbi" \
+	--known_indels_index "/home/ye/Data/genome/Mills_and_1000G_gold_standard.indels.hg38.vcf.gz.tbi" \
+	--fasta "/home/ye/Data/genome/GRCh38.primary_assembly.genome.fa" \
+	--bwa "/home/ye/Data/genome/GRCh38.primary_assembly.genome.fa.{amb,ann,bwt,pac,sa}" \
+	--fasta_fai "/home/ye/Data/genome/GRCh38.primary_assembly.genome.fa.fai" \
+       	--igenomes_ignore \
+	--dbsnp "/home/ye/Data/genome/dbsnp_146.hg38.vcf.gz" \
+	--known_indels "/home/ye/Data/genome/Mills_and_1000G_gold_standard.indels.hg38.vcf.gz" \
+	--max_cpus 24 --publish_dir_mode  "copy" \
+	--outdir sarek-results -w sarek-works -with-report report.html 	
